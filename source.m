@@ -3,7 +3,7 @@ clear all
 clc
 
 %citirea celor trei fisiere audio utilizate in program
-[ss,Fe_ss] = audioread('Nicolescu_Tudor_sample.wav');
+[ss,Fe_ss] = audioread('sample.wav');
 [ms,Fe_ms] = audioread('magpie_sample.wav');
 [tm,Fe_tm] = audioread('tywin_magpie.wav');
 
